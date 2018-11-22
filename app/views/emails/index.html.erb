@@ -15,18 +15,19 @@
     </tr>
   </thead>
 
-  <% @emails.each do |email| %>
+  <tbody>
+    <% @emails.each do |email| %>
       <tr class="list-group-item">
-        <div id="bloc">
         <td><%= link_to email.title , email, remote: true %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
         <td><%= email.created_at.strftime("%Y-%m-%d at %H:%M")%>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-        <td><% if email.read == true %> <span>lu </span>
-          <% else %>  <p> non lu </p>
+        <td class="lu-<%= email.id %>">
+          <% if email.read %><span>Lu </span>
+          <% else %><p> Non lu </p>
           <% end %>
         </td>
-      </div>
       </tr>
     <% end %>
+  </tbody>
 
     </table>
   </section>
