@@ -1,24 +1,12 @@
-# README
+# THP Jeudi_S8 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Lien Heroku ::tiger:
+[Lien Growth Hacking sur Heroku](https://mysterious-depths-84263.herokuapp.com/)
 
-Things you may want to cover:
+## Projet de groupe :tea: :
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Guillaume Pichot   slack/  @Guillaume :tropical_fish:
+* Romain Recher     slack/  @Romain :whale2:
+* Samuel Assani   slack/  @Sassani :tiger2:
+* Hai-Dang Ha-Thuc  slack/  @Hai-Dang :leopard:
+* Fayçal Meghzili   slack/  @Fays :dolphin:
