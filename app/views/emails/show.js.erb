@@ -1,0 +1,5 @@
+$('#email-body').html("<%= j (render '/layouts/show') %>");
+$('#email-body').slideDown(350);
+var lu = $('.lu-' + <%= @email.id %>);
+
+lu.html('Lu')

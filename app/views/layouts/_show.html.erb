@@ -1,0 +1,15 @@
+ <div>
+   <p id="notice"><%= notice %></p>
+</div>
+
+<div id="contenu">
+	<p>
+		<h2>Object: <%= @email.title %></h2>
+
+	</p>
+	<p>
+	  <strong>Contenu:</strong><br>
+	  <%= @email.body %>
+	  <%= link_to 'Destroy', @email, method: :delete, data: { confirm: 'Are you sure?' } %>
+	</p>
+</div>

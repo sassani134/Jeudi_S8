@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Emails</h1>
+
+
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+<div>
+    <section id="left">
+      <table>
+    <% @emails.each do |email| %>
+      <tr>
+        <td><%= link_to email.title , email, remote: true %></td>
+        <td><% if email.read == true %> <p>lu </p>
+          <% else %>  <p> non lu </p>
+          <% end %>
+        </td>
+
+
+        <td><%= email.created_at%></td>
+
+      </tr>
+    <% end %>
+
+    </table>
+  </section>
+
+
+
+
+
+  <aside id="right">
+
+    
+
+          <div id="email-body" style="display: none;"></div>
+
+      <div class="col-9 ">
+        <% email = [] %>
+        <% if !email[0].nil? %>
+        <%= render 'emails/content' %>
+        
+        <% end %>
+        
+      </div>
+
+  </aside>
+
+
+</div>
+
