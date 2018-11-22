@@ -8,8 +8,10 @@
 
 	</p>
 	<p>
-	  <strong>Contenu:</strong><br>
+	  <strong>Body :</strong><br>
 	  <%= @email.body %>
-	  <%= link_to 'Destroy', @email, method: :delete, data: { confirm: 'Are you sure?' } %>
+	  <br>
+	  <%= link_to 'Delete', @email, method: :delete, data: { confirm: 'Are you sure?' } %>
 	</p>
 </div>
+

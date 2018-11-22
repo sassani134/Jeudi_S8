@@ -1,0 +1,38 @@
+#ulheader {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    padding-right : 26px;
+} 
+
+li {
+    display: flex;
+    align-items: center;
+    padding:6px; 
+    padding-top: 0px;
+    padding-bottom : 0px;
+} 
+
+
+
+li a {
+    color : white;
+} 
+
+
+#bloc_left {
+    display: flex;
+    padding:6px 8px; 
+    list-style-type: none; 
+    font-size: 13px;
+    font-family: arial,sans-serif;
+} 
+
+#bloc_right{
+    display: flex;
+    padding:6px 8px; 
+    list-style-type: none; 
+    font-size: 13px;
+    font-family: arial,sans-serif;
+} 
