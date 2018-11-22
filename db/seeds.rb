@@ -9,6 +9,6 @@
 require 'faker'
 
 
-3.times do
+20.times do
  email = Email.create(title: Faker::Book.title, body: Faker::Lorem.paragraph)
 end
